@@ -25,7 +25,7 @@ pas = StringVar()
 enabled = IntVar()
 def paf(par_ent):
     if enabled.get() == 1:
-        par_ent['show'] = NONE
+        par_ent['show'] = ''
     if enabled.get() == 0:
         par_ent['show'] = '*'
 class CreateToolTip(object):
